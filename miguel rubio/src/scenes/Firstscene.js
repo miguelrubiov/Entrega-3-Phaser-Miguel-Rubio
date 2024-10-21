@@ -257,11 +257,11 @@ class Firstscene extends Phaser.Scene {
 
         if (type === 0) {
             const enemy = this.enemigo2Group.create(Phaser.Math.Between(0, this.sys.game.canvas.width), 0, 'enemigo2');
-            enemy.setVelocityY(60);
+            enemy.setVelocityY(50);
             enemy.hitsToKill = 2; 
         } else {
             const enemy = this.enemigo1Group.create(Phaser.Math.Between(0, this.sys.game.canvas.width), 0, 'enemigo1');
-            enemy.setVelocityY(60);
+            enemy.setVelocityY(50);
             enemy.hitsToKill = 2;
         }
         
